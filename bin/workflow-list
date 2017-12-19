@@ -18,9 +18,9 @@ process.on('exit', () => {
  */
 
 request({
-  url: 'https://api.github.com/users/workflow-templates/repos',
+  url: 'https://api.github.com/users/web-workflow-templates/repos',
   headers: {
-    'User-Agent': 'workflow-cli'
+    'User-Agent': 'web-workflow-cli'
   }
 }, (err, res, body) => {
   if (err) logger.fatal(err)
