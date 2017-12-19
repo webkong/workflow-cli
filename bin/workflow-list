@@ -30,8 +30,8 @@ request({
     console.log()
     requestBody.forEach(repo => {
       console.log(
-        '  ' + chalk.yellow('★') +
-        '  ' + chalk.blue(repo.name) +
+        '  ' + chalk.yellow('✲') +
+        '  ' + chalk.red(repo.name) +
         ' - ' + repo.description)
     })
   } else {
