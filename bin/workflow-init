@@ -117,7 +117,7 @@ function run () {
     checkVersion(() => {
       if (!hasSlash) {
         // use official templates
-        const officialTemplate = 'web-workflow-templates/' + template
+        const officialTemplate = 'workflow-templates/' + template
         if (template.indexOf('#') !== -1) {
           downloadAndGenerate(officialTemplate)
         } else {
