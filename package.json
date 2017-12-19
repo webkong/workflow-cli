@@ -1,6 +1,6 @@
 {
   "name": "web-workflow-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple CLI for scaffolding workflow projects.",
   "preferGlobal": true,
   "bin": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webkong/workflow-cli.git"
+    "url": "git+https://github.com/webkong/web-workflow-cli.git"
   },
   "keywords": [
     "workflow",
@@ -20,9 +20,9 @@
   "author": "webkong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webkong/workflow-cli/issues"
+    "url": "https://github.com/webkong/web-workflow-cli/issues"
   },
-  "homepage": "https://github.com/webkong/workflow-cli#readme",
+  "homepage": "https://github.com/webkong/web-workflow-cli#readme",
   "scripts": {
   },
   "dependencies": {
