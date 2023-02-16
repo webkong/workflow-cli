@@ -1,10 +1,10 @@
 {
-  "name": "workflow-cli",
-  "version": "1.0.5",
+  "name": "new-app-cli",
+  "version": "1.0.7",
   "description": "A simple CLI for scaffolding web projects faster.",
   "preferGlobal": true,
   "bin": {
-    "workflow": "bin/cli"
+    "newapp": "bin/newapp"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,11 @@
     "url": "https://github.com/webkong/workflow-cli/issues"
   },
   "homepage": "https://github.com/webkong/workflow-cli#readme",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "async": "^3.2.4",
     "chalk": "^4.1.2",
+    "coffee-script": "1.12.7",
     "commander": "^10.0.0",
     "consolidate": "^0.16.0",
     "download-git-repo": "^3.0.2",
@@ -42,8 +42,7 @@
     "tildify": "^2.0.0",
     "uid": "2.0.1",
     "user-home": "^2.0.0",
-    "validate-npm-package-name": "^5.0.0",
-    "coffee-script": "1.12.7"
+    "validate-npm-package-name": "^5.0.0"
   },
   "devDependencies": {
     "chai": "^4.3.7",
