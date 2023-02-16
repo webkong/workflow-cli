@@ -13,13 +13,18 @@ $ npm install -g workflow-cli
 ### Usage
 
 ``` bash
-$ workflow init <template-name> <project-name>
+$ workflow create <template-name> <project-name>
 ```
 
 Example:
 
 ``` bash
-$ workflow init web my-project
+$ workflow create web my-project
+```
+
+Support
+```
+workflow list
 ```
 
 
