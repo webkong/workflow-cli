@@ -1,16 +1,14 @@
 {
-  "name": "web-workflow-cli",
-  "version": "1.0.4",
-  "description": "A simple CLI for scaffolding workflow projects.",
+  "name": "workflo-cli",
+  "version": "1.0.5",
+  "description": "A simple CLI for scaffolding web projects faster.",
   "preferGlobal": true,
   "bin": {
-    "workflow": "bin/workflow",
-    "workflow-init": "bin/workflow-init",
-    "workflow-list": "bin/workflow-list"
+    "workflow": "bin/cli"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webkong/web-workflow-cli.git"
+    "url": "git+https://github.com/webkong/workflow-cli.git"
   },
   "keywords": [
     "workflow",
@@ -20,38 +18,38 @@
   "author": "webkong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webkong/web-workflow-cli/issues"
+    "url": "https://github.com/webkong/workflow-cli/issues"
   },
-  "homepage": "https://github.com/webkong/web-workflow-cli#readme",
+  "homepage": "https://github.com/webkong/workflow-cli#readme",
   "scripts": {
   },
   "dependencies": {
-    "async": "^2.4.0",
-    "chalk": "^2.1.0",
-    "commander": "^2.9.0",
-    "consolidate": "^0.14.0",
-    "download-git-repo": "^1.0.1",
-    "handlebars": "^4.0.5",
-    "inquirer": "^3.3.0",
-    "metalsmith": "^2.1.0",
-    "minimatch": "^3.0.0",
-    "multimatch": "^2.1.0",
-    "ora": "^1.3.0",
+    "async": "^3.2.4",
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "consolidate": "^0.16.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.5",
+    "metalsmith": "^2.5.1",
+    "minimatch": "^6.2.0",
+    "multimatch": "^5.0.0",
+    "ora": "^5.4.1",
     "read-metadata": "^1.0.0",
     "request": "^2.67.0",
-    "rimraf": "^2.5.0",
-    "semver": "^5.1.0",
-    "tildify": "^1.2.0",
-    "uid": "0.0.2",
+    "rimraf": "^4.1.2",
+    "semver": "^7.3.8",
+    "tildify": "^2.0.0",
+    "uid": "2.0.1",
     "user-home": "^2.0.0",
-    "validate-npm-package-name": "^3.0.0",
+    "validate-npm-package-name": "^5.0.0",
     "coffee-script": "1.12.7"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "eslint": "^3.19.0",
-    "execa": "^0.8.0",
-    "mocha": "^3.5.3"
+    "chai": "^4.3.7",
+    "eslint": "^8.34.0",
+    "execa": "^7.0.0",
+    "mocha": "^10.2.0"
   },
   "engines": {
     "node": ">=6.0.0"

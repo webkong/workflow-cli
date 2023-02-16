@@ -65,7 +65,7 @@ const name = inPlace ? path.relative('../', process.cwd()) : rawName
 const to = path.resolve(rawName || '.')
 const clone = program.clone || false
 
-const tmp = path.join(home, '.web-workflow-templates', template.replace(/\//g, '-'))
+const tmp = path.join(home, '.workflow-templates', template.replace(/\//g, '-'))
 if (program.offline) {
   console.log(`> Use cached template at ${chalk.yellow(tildify(tmp))}`)
   template = tmp
@@ -143,7 +143,7 @@ function run () {
  */
 
 function downloadAndGenerate (template) {
-  const spinner = ora('downloading template')
+  const spinner = ora('Downloading template')
   spinner.start()
   // Remove if local template exists
   if (exists(tmp)) rm(tmp)
