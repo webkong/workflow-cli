@@ -1,5 +1,5 @@
 {
-  "name": "workflo-cli",
+  "name": "workflow-cli",
   "version": "1.0.5",
   "description": "A simple CLI for scaffolding web projects faster.",
   "preferGlobal": true,
