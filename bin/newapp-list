@@ -20,7 +20,8 @@ process.on('exit', () => {
 request({
   url: 'https://api.github.com/users/workflow-templates/repos',
   headers: {
-    'User-Agent': 'web-workflow-cli'
+    'User-Agent': 'web-new-app-cli',
+    'Authorization': 'Bearer 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' ,
   }
 }, (err, res, body) => {
   if (err) logger.fatal(err)

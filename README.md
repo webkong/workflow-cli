@@ -7,7 +7,7 @@ A simple CLI for scaffolding workflow projects.
 Prerequisites: [Node.js](https://nodejs.org/en/) (>=6.x), npm version 3+ and [Git](https://git-scm.com/).
 
 ``` bash
-$ npm install -g workflow-cli
+$ npm install -g new-app-cli
 ```
 
 ### Usage
