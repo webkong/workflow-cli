@@ -4,7 +4,7 @@ A simple CLI for scaffolding workflow projects.
 
 ### Installation
 
-Prerequisites: [Node.js](https://nodejs.org/en/) (>=4.x, 6.x preferred), npm version 3+ and [Git](https://git-scm.com/).
+Prerequisites: [Node.js](https://nodejs.org/en/) (>=6.x), npm version 3+ and [Git](https://git-scm.com/).
 
 ``` bash
 $ npm install -g workflow-cli
@@ -13,18 +13,18 @@ $ npm install -g workflow-cli
 ### Usage
 
 ``` bash
-$ workflow create <template-name> <project-name>
+$ newapp init <template-name> <project-name>
 ```
 
 Example:
 
 ``` bash
-$ workflow create web my-project
+$ newapp init web my-project
 ```
 
 Support
 ```
-workflow list
+newapp list
 ```
 
 
