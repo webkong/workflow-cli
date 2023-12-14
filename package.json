@@ -1,6 +1,6 @@
 {
   "name": "new-app-cli",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "A simple CLI for scaffolding web projects faster.",
   "preferGlobal": true,
   "bin": {
