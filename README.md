@@ -1,6 +1,6 @@
-# workflow-cli [![Build Status](https://img.shields.io/circleci/project/webkong/workflow-cli/master.svg)](https://circleci.com/gh/webkong/workflow-cli) [![npm package](https://img.shields.io/npm/v/workflow-cli.svg)](https://www.npmjs.com/package/workflow-cli)
+# newapp-cli [![Build Status](https://img.shields.io/circleci/project/webkong/newapp-cli/master.svg)](https://circleci.com/gh/webkong/newapp-cli) [![npm package](https://img.shields.io/npm/v/newapp-cli.svg)](https://www.npmjs.com/package/newapp-cli)
 
-A simple CLI for scaffolding workflow projects.
+A simple CLI for scaffolding newapp projects.
 
 ### Installation
 

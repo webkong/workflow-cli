@@ -5,9 +5,9 @@ try {
   program
     .version(require('../package').version)
     .usage('<command> [options]')
-    .command('init', 'generate a new project from a template')
-    .command('list', 'list available official templates')
+    .command('init', 'Generate a new project use a template')
+    .command('list', 'List available templates')
     .parse(process.argv);
 } catch (error) {
-  console.log('🚀 ~ file: workflow:14 ~ error', error);
+  console.log('🚀 ~ file: newapp:14 ~ error', error);
 }

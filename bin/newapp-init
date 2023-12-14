@@ -35,11 +35,11 @@ program
 program.on('--help', () => {
   console.log('  Examples:')
   console.log()
-  console.log(chalk.gray('    # create a new project with an official template'))
-  console.log('    $ workflow init web my-project')
+  console.log(chalk.gray('    # create a new project with a template'))
+  console.log('    $ newapp init web my-project')
   console.log()
   console.log(chalk.gray('    # create a new project straight from a github template'))
-  console.log('    $ workflow init username/repo my-project')
+  console.log('    $ newapp init username/repo my-project')
   console.log()
 })
 
@@ -65,7 +65,7 @@ const name = inPlace ? path.relative('../', process.cwd()) : rawName
 const to = path.resolve(rawName || '.')
 const clone = program.clone || false
 
-const tmp = path.join(home, '.workflow-templates', template.replace(/\//g, '-'))
+const tmp = path.join(home, '.newapp-web', template.replace(/\//g, '-'))
 if (program.offline) {
   console.log(`> Use cached template at ${chalk.yellow(tildify(tmp))}`)
   template = tmp
@@ -117,7 +117,7 @@ function run () {
     checkVersion(() => {
       if (!hasSlash) {
         // use official templates
-        const officialTemplate = 'workflow-templates/' + template
+        const officialTemplate = 'newapp-web/' + template
         if (template.indexOf('#') !== -1) {
           downloadAndGenerate(officialTemplate)
         } else {

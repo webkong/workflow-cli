@@ -11,7 +11,6 @@
     "url": "git+https://github.com/webkong/workflow-cli.git"
   },
   "keywords": [
-    "workflow",
     "newapp",
     "cli",
     "spa"
